@@ -11,6 +11,12 @@ circle.Avatar-circle-container {
      stroke-width: 1.0mm;
 }
 
+path.Avatar-exclamation-point {
+     fill: black;
+     stroke: black;
+     opacity: 0;
+}
+
 path.Avatar-tshirt-body {
      fill: #442178;
      stroke: #2d1650;
