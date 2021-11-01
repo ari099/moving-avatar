@@ -10,16 +10,16 @@ const Avatar = props => {
           let surpriseGlassesCoords = "matrix(1.0937742,0,0,1.1895152,-21.293908,-82.052109)";
 
           var animation = anime.timeline({
-               easing: 'easeInOutQuad',
-               duration: 300
+               easing: 'easeOutElastic(1, .8)',
+               duration: 400
           });
           animation.add({
                targets: '.Avatar-profile-head',
                d: [initialCoords, surpriseCoords],
-          }).add({
+          }, 500).add({
                targets: '.Avatar-glasses',
                transform: [initialGlassesCoords, surpriseGlassesCoords],
-          }, '-=225').add({
+          }, '-=400').add({
                targets: '.Avatar-exclamation-point',
                opacity: [0, 1]
           }).add({
@@ -31,7 +31,10 @@ const Avatar = props => {
           }).add({
                targets: '.Avatar-glasses',
                transform: [surpriseGlassesCoords, initialGlassesCoords],
-          }, '-=225');
+          }, '-=400').add({
+               targets: ".Avatar-glasses-top",
+               fill: ['#FFF', '#000', '#FFF']
+          });
      };
 
      useEffect(() => {
