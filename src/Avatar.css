@@ -1,48 +1,59 @@
-svg.Avatar-container {
+/* Codepen Pen Status */
+.pen-status {
      position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-}
-
-circle.Avatar-circle-container {
-     fill: #5a2ca0;
-     stroke: #2d1650;
-     stroke-width: 1.0mm;
-}
-
-path.Avatar-exclamation-point {
-     fill: black;
-     stroke: black;
-     opacity: 0;
-}
-
-path.Avatar-tshirt-body {
-     fill: #442178;
-     stroke: #2d1650;
-     stroke-width: 1.0mm;
-}
-path.Avatar-tshirt-sleeve-endings {
-     fill: #2d1650;
-}
-
-path.Avatar-profile-neck {
-     fill: black;
-     stroke: black;
-     stroke-width: 1.0mm;
-}
-path.Avatar-profile-head {
-     fill: black;
-     stroke: black;
-     stroke-width: 1.0mm;
-}
-path.Avatar-glasses-bottom {
-     fill: black;
-     stroke: black;
-     stroke-width: 1.0mm;
-}
-path.Avatar-glasses-top {
-     fill: white;
-     stroke: black;
-     stroke-width: 1.0mm;
-}
+     bottom: 0;
+     left: 0;
+     margin: 10px;
+     font-family: 'JetBrains Mono';
+     color: #afe9dc;
+   }
+   
+   /* Avatar Styles */
+   svg.Avatar-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+   }
+   
+   circle.Avatar-circle-container {
+        fill: #2c7fa0;
+        stroke: #164750;
+        stroke-width: 1.0mm;
+   }
+   
+   path.Avatar-exclamation-point {
+        fill: black;
+        stroke: black;
+        opacity: 0;
+   }
+   
+   path.Avatar-tshirt-body {
+        fill: #97b5e2;
+        stroke: #164750;
+        stroke-width: 1.0mm;
+   }
+   path.Avatar-tshirt-sleeve-endings {
+        fill: #164750;
+   }
+   
+   path.Avatar-profile-neck {
+        fill: #1a1a1a;
+        stroke: black;
+        stroke-width: 1.0mm;
+   }
+   path.Avatar-profile-head {
+        fill: black;
+        stroke: black;
+        stroke-width: 1.0mm;
+   }
+   path.Avatar-glasses-bottom {
+        fill: black;
+        stroke: black;
+        stroke-width: 1.0mm;
+   }
+   path.Avatar-glasses-top {
+        fill: #97b5e2;
+        stroke: black;
+        stroke-width: 1.0mm;
+   }
