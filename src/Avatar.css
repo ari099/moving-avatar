@@ -23,8 +23,8 @@
    }
    
    path.Avatar-exclamation-point {
-        fill: black;
-        stroke: black;
+        fill: #164750;
+        stroke: #164750;
         opacity: 0;
    }
    
@@ -38,22 +38,22 @@
    }
    
    path.Avatar-profile-neck {
-        fill: #1a1a1a;
-        stroke: black;
+        fill: #164750;
+        stroke: #164750;
         stroke-width: 1.0mm;
    }
    path.Avatar-profile-head {
-        fill: black;
-        stroke: black;
+        fill: #164750;
+        stroke: #164750;
         stroke-width: 1.0mm;
    }
    path.Avatar-glasses-bottom {
-        fill: black;
-        stroke: black;
+        fill: #164750;
+        stroke: #164750;
         stroke-width: 1.0mm;
    }
    path.Avatar-glasses-top {
         fill: #97b5e2;
-        stroke: black;
+        stroke: #164750;
         stroke-width: 1.0mm;
    }
