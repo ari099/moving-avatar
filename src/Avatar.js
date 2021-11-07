@@ -33,7 +33,7 @@ const Avatar = props => {
                transform: [surpriseGlassesCoords, initialGlassesCoords],
           }, '-=400').add({
                targets: ".Avatar-glasses-top",
-               fill: ['#97b5e2', '#164750', '#97b5e2']
+               fill: ['#dac06a', '#795107', '#dac06a']
           });
      };
 

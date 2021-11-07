@@ -1,59 +1,49 @@
-/* Codepen Pen Status */
-.pen-status {
+/* Avatar Styles */
+svg.Avatar-container {
      position: absolute;
-     bottom: 0;
-     left: 0;
-     margin: 10px;
-     font-family: 'JetBrains Mono';
-     color: #afe9dc;
-   }
-   
-   /* Avatar Styles */
-   svg.Avatar-container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-   }
-   
-   circle.Avatar-circle-container {
-        fill: #2c7fa0;
-        stroke: #164750;
-        stroke-width: 1.0mm;
-   }
-   
-   path.Avatar-exclamation-point {
-        fill: #164750;
-        stroke: #164750;
-        opacity: 0;
-   }
-   
-   path.Avatar-tshirt-body {
-        fill: #97b5e2;
-        stroke: #164750;
-        stroke-width: 1.0mm;
-   }
-   path.Avatar-tshirt-sleeve-endings {
-        fill: #164750;
-   }
-   
-   path.Avatar-profile-neck {
-        fill: #164750;
-        stroke: #164750;
-        stroke-width: 1.0mm;
-   }
-   path.Avatar-profile-head {
-        fill: #164750;
-        stroke: #164750;
-        stroke-width: 1.0mm;
-   }
-   path.Avatar-glasses-bottom {
-        fill: #164750;
-        stroke: #164750;
-        stroke-width: 1.0mm;
-   }
-   path.Avatar-glasses-top {
-        fill: #97b5e2;
-        stroke: #164750;
-        stroke-width: 1.0mm;
-   }
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+circle.Avatar-circle-container {
+     fill: black;
+     stroke: #795107;
+     stroke-width: 1.0mm;
+}
+
+path.Avatar-exclamation-point {
+     fill: #dac06a;
+     stroke: #dac06a;
+     opacity: 0;
+}
+
+path.Avatar-tshirt-body {
+     fill: #dac06a;
+     stroke: #795107;
+     stroke-width: 1.0mm;
+}
+path.Avatar-tshirt-sleeve-endings {
+     fill: #795107;
+}
+
+path.Avatar-profile-neck {
+     fill: #795107;
+     stroke: #795107;
+     stroke-width: 1.0mm;
+}
+path.Avatar-profile-head {
+     fill: #795107;
+     stroke: #795107;
+     stroke-width: 1.0mm;
+}
+path.Avatar-glasses-bottom {
+     fill: #795107;
+     stroke: #795107;
+     stroke-width: 1.0mm;
+}
+path.Avatar-glasses-top {
+     fill: #dac06a;
+     stroke: #795107;
+     stroke-width: 1.0mm;
+}
